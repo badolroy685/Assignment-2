@@ -1,0 +1,90 @@
+.quicksand{
+    font-family: "Quicksand", serif;
+} 
+/* ----------------classes----------------------   */
+.display-flex{
+    display: flex;
+}
+.orange{
+    color: orange;
+}
+.sky-blue{
+    color: #01ACFD;
+}
+.violet{
+    color: #5D58EF;
+}
+.mint{
+    color: #05D4DF;
+}
+
+/* -----------------------navbar--------------------------- */
+.nav-item{
+    list-style: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.nav-links{
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+.navbar{
+    justify-content:space-between;
+    align-items: center;
+    width: 1400px;
+    margin: 20px auto;
+}
+.logo{
+    height: 60px;
+    width: 100%;
+}
+.title{
+    font-size: 2rem;
+    font-weight: 800;
+   margin: 15px 0 15px 10px;
+  
+    
+    
+}
+.btn{
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: orange;
+    color: white;
+    border: none;
+    font-size: 1.25rem;
+}
+/* ----------------------------banner--------------------------- */
+.banner-section, .standard-curriculum{
+    width: 1400px;
+    margin: 0 auto;
+}
+.banner-title{
+    font-size: 3rem;
+
+}
+.banner-description{
+   
+    font-size: 1.5rem;
+}
+
+#enroll{
+    background-color: black;
+}
+.banner{
+    margin: auto 0;      
+}
+/* -------------------------Standard Curriculum---------------------- */
+.standard-curriculum{
+    background-image: url(images/bg.png);
+}
+
+.card{
+    width: 370px;
+    height: 460px;
+    border: 1px solid red;
+    gap: 30px;
+}
+
