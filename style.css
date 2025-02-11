@@ -17,6 +17,9 @@
 .mint{
     color: #05D4DF;
 }
+.white{
+   background: rgb(183, 217, 237);
+}
 
 /* -----------------------navbar--------------------------- */
 .nav-item{
@@ -57,7 +60,7 @@
     font-size: 1.25rem;
 }
 /* ----------------------------banner--------------------------- */
-.banner-section, .standard-curriculum{
+.banner-section{
     width: 1400px;
     margin: 0 auto;
 }
@@ -77,14 +80,192 @@
     margin: auto 0;      
 }
 /* -------------------------Standard Curriculum---------------------- */
+.section-title{
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+}
+
 .standard-curriculum{
     background-image: url(images/bg.png);
+    /* background-repeat: repeat-y; */
+    /* margin: 0 200px; */
+}
+.card-container{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 55px;
+   
+    /* margin: 0 auto; */
+  
 }
 
 .card{
-    width: 370px;
-    height: 460px;
+    width: 340px;
+    height: 440px;
+    padding: 30px;
     border: 1px solid red;
-    gap: 30px;
+    border-radius: 20px;
+    /* gap: 10px; */
+    /* margin: 0 auto; */
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+   
 }
+.card1{
+  
+    background: linear-gradient(skyblue to transparent);
+  
+    
+}
+.card-description{
+   line-height: 25px;
+}
+.card-title{
+    font-size: 1.75rem;
+    margin: 35px auto;
+}
+.read-more{
+    text-decoration: none;
+    font-weight: 600;
+  
+   
+}
+/* -------------------------stories---------------------- */
+.gradient{
+    width: 100%;
+    height: 1020px;
+   background: linear-gradient(white, #FEA301);
+    /* position: absolute; */
+    opacity: 30%;
+    position: absolute;
+}
+.story-container{
+    gap: 40px;
+    background-image: url(images/bg.png);
+    justify-content: center;
+    position: relative;
+   
+    /* background: linear-gradient(#FEA301, #FFFFFF);
+    opacity: 30%; */
+    
+}
+.stories-right-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin-left: 50px;
+   
+}
+.story-1{
+    width: 550px;
+    height: 640px;
+    background-color: white;
+    border-radius: 16px;
+   
+}
+.float-button{
+    width: 175px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #3CD8E8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -30px 0 0 30px;
+    position: absolute;
+}
+.story1-title{
+    font-size: 1.75rem;
+   
+}
+.story-description{
+    padding: 30px;
+}
+.story-pic{
+    border-radius: 16px 16px 0 0 ;
+    width: 100%;
+}
+.story{
+    width:300px ;
+    height: 310px;
+    background-color: white;
+    border-radius: 16px;
+}
+.float-right{
+    height: 38px;
+    width: 175px;
+    border-radius: 50px;
+    background-color: #95B226; 
+    margin: -25px 0 0 25px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.story-right-description{
+    padding: 30px;
+    font-weight: 600;
+}
+#view-all{
+    background-color: black;
+    border-radius: 12px;
+    margin: 80px 850px;
+   position: relative;
+
+}
+/* --------------------------footer---------------------------- */
+.footer{
+    width: 100%;
+    height: 520px;
+    background-color:#01ACFD;
+    display: flex;
+  
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+
+}
+.footer-container{
+    display: flex;
+    gap: 180px;
+    color: white;
+    align-items: baseline;
+}
+.logo-footer{
+    width:400px ;
+}
+#footer-description{
+    font-size: 1.25rem;
+}
+.list{
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: white;
+    /* margin-top: 10px; */
+}
+#keep-in{
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+#logo2{
+    height: 80px;
+    width: 80px;
+}
+#kid{
+    font-size: 2rem;
+    margin: 0 0 0 10px;
+   
+   
+}
+
+
 
